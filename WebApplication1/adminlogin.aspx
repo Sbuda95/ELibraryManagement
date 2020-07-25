@@ -40,7 +40,7 @@
                             <div class="col">
                                 <div class="form-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
-                                        placeholder="Email"></asp:TextBox>
+                                        placeholder="Username"></asp:TextBox>
 
                                 </div>
                                 <!--Textboxes for admin password-->
@@ -53,7 +53,7 @@
                                 <!--button for login-->
                                            <div class="form-group">
                                                      
-                                               <asp:Button CssClass="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" />
+                                               <asp:Button CssClass="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
                                                           
                                 </div>
 

@@ -51,7 +51,7 @@
                                 <!--button for login-->
                                            <div class="form-group">
                                                      
-                                               <asp:Button CssClass="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" />
+                                               <asp:Button CssClass="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
                                                           
                                 </div>
                                                          <!--button for Sign up-->
